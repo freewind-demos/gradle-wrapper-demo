@@ -13,14 +13,14 @@ gradle -v
 Generate `gradlew` by command:
 
 ```
-gradle wrapper --gradle-version 3.0
+gradle wrapper --gradle-version 2.4
 ```
 
 Or define a task in `build.gradle`:
 
 ```
 task wrapper(type: Wrapper) {
-   gradleVersion = '3.0' //version required
+   gradleVersion = '2.4' //version required
 }
 ```
 
